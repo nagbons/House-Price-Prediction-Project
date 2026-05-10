@@ -71,11 +71,5 @@ The goal is to simulate a real-world **end-to-end Data Science product pipeline*
 - R² Score: ~0.69+ (Random Forest baseline)
 - Improved further with XGBoost & feature engineering
 
----
-
-## 📦 Installation & Setup
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/Nagbons/house-price-prediction.git
-cd house-price-prediction
+## APP Preview 
+![House Price App](app_screenshot.png)
