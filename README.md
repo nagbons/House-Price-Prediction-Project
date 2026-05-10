@@ -9,13 +9,13 @@ Built with **Python, Scikit-Learn, XGBoost, and Streamlit**.
 👉 https://house-price-prediction-project-iyjw.onrender.com
 
 ---
+## 🏠 Project Overview
 
-## 📌 Project Overview
+This project is a **machine learning-powered real estate price prediction system** designed to estimate house prices based on key property features.
 
-This project predicts house prices using supervised machine learning techniques.  
-It includes feature engineering, model training, evaluation, and deployment as an interactive web app.
+It simulates a real-world data science product pipeline, from data preprocessing and feature engineering to model deployment as an interactive web application.
 
-The goal is to simulate a real-world **end-to-end Data Science product pipeline**.
+The goal is to assist users and stakeholders in making informed property valuation decisions.
 
 ---
 
@@ -66,10 +66,49 @@ The goal is to simulate a real-world **end-to-end Data Science product pipeline*
 
 ---
 
-## 📈 Model Performance
+## 📊 Model Performance
 
-- R² Score: ~0.69+ (Random Forest baseline)
-- Improved further with XGBoost & feature engineering
+- Model: Random Forest / XGBoost
+- MAE: 9888.806640625
+- RMSE: 14077.610024432413
+- R2 Score: 0.69
+The model was improved using feature engineering and hyperparameter tuning.
+
+## ⚙️ How It Works
+
+1. User inputs house details via Streamlit UI  
+2. Feature engineering is applied (luxury score, comfort index, etc.)  
+3. Trained ML model processes the inputs  
+4. The app returns predicted price + price range
+
+## 📁 Project Structure
+
+House-Price-Prediction/
+│
+├── app.py
+├── model.pkl
+├── features.pkl
+├── requirements.txt
+├── README.md
+│
+├── notebooks/
+│   └── analysis.ipynb
+│
+app_screenshot.png
+
+## 🌟 Key Highlights
+
+- End-to-end machine learning pipeline
+- Feature engineering for improved model performance
+- Interactive Streamlit web application
+- Deployed live on Render
+- Production-style project structure
+
+## 👨‍💻 Author
+
+- GitHub: https://github.com/Nagbons  
+- LinkedIn: https://www.linkedin.com/in/nagbonsegbeobauwaye  
+- Email: nagbonsegbeobauwaye74@gmail.com
 
 ## APP Preview 
 ![House Price App](app_screenshot.png)
